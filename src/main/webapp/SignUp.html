@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sign Up</title>
+</head>
+<body>
+	<h1>Sign Up page</h1>
+	<form action="SignUpServlet" method="post">
+		<table>
+		<tr>
+			<td>First Name :</td>
+			<td><input type="text" name="fn"></td>
+		</tr>
+		<tr>
+			<td>Password :</td>
+			<td><input type="text" name="pass"></td>
+		</tr>
+		<tr>
+			<td>Email :</td>
+			<td><input type="text" name="email"></td>
+		</tr>
+	     <tr>
+	     	<td>Gender :</td>
+	     	<td><input type="radio" name = "gen" value = "f"> Female
+				<input type="radio" name = "gen" value = "m"> Male</td>
+	     </tr>
+		 <tr>
+	     	<td>Hobby :</td>
+	     	<td><input type="checkbox" name = "hby" value="dance"> Dance
+				<input type="checkbox" name = "hby" value="learning"> Learning</td>
+	     </tr>
+	     <tr>
+	     	<td></td>
+	     	<td><input type="checkbox" name = "hby" value="basketball"> Basketball
+				<input type="checkbox" name = "hby" value="singing"> Singing</td>
+	     </tr>
+	     <tr>
+		     <td>Country : </td>
+		     <td> <select name="country">
+		     		<option value="none">----Select----</option>
+		     		<option value="in">India</option>
+		     		<option value="us">USA</option>
+		     		<option value="ch">China</option>
+		     		<option value="ge">Germany</option>
+		     		<option value="ca">Canada</option>
+		         </select> </td>
+	     </tr>
+	     <tr>
+	     	<td colspan="2" align="center"> <input type="submit" value="Sign up"> </td>
+	     </tr>
+		</table>
+	</form>
+</body>
+</html>
